@@ -1,0 +1,42 @@
+:root {
+    --light-color: #E9E9E9;
+    --dark-color: #262626;
+    --background-default-color: #DCEDE0;
+    --text-default-color: #275331;
+    --secondary-dark-color: #61178C;
+    --secondary-light-color: #B28FDA;
+}
+
+.navbar {
+    background-color: var(--background-default-color);
+}
+
+.nav-link {
+    color: var(--dark-color);
+
+}
+
+span .navbar-toggler-icon {
+    /* border: none; */
+    color: var(--secondary-dark-color);
+}
+
+.intro {
+    background-color: var(--light-color);
+}
+
+.hours-location {
+    background-color: var(--background-default-color);
+}
+
+.contact {
+    background-color: var(--light-color);
+}
+
+.separator {
+    border-bottom: 2px solid var(--secondary-light-color);
+}
+
+footer {
+    background-color: var(--background-default-color);
+}
