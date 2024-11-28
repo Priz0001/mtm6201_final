@@ -1,18 +1,44 @@
-:root {
+:root,
+[data-bs-theme=light] {
     --light-color: #E9E9E9;
-    --dark-color: #262626;
-    --background-default-color: #DCEDE0;
-    --text-default-color: #275331;
-    --secondary-dark-color: #61178C;
+    --primary-light-color: #DCEDE0;
     --secondary-light-color: #B28FDA;
+    --dark-color: #262626;
+    --primary-dark-color: #275331;
+    --secondary-dark-color: #61178C;
+}
+
+/* [data-bs-theme=dark] {
+    
+} */
+
+h1 {
+    font-family: "MonteCarlo", cursive;
+    color: var(--primary-dark-color);
+}
+
+h2 {
+    font-family: "Julius Sans One", sans-serif;
+    color: var(--secondary-dark-color);
+}
+
+h3 {
+    font-family: "Josefin Sans", sans-serif;
+}
+
+p {
+    font-family: "Nunito Sans", sans-serif;
+    color: var(--dark-color);
 }
 
 .navbar {
-    background-color: var(--background-default-color);
+    background-color: var(--primary-light-color);
+    color: var(--primary-dark-color);
 }
 
-.nav-link {
-    color: var(--dark-color);
+.navbar .navbar-brand {
+    /* color: blue;
+    font-family: "Josefin Sans", sans-serif; */
 
 }
 
@@ -26,7 +52,7 @@ span .navbar-toggler-icon {
 }
 
 .hours-location {
-    background-color: var(--background-default-color);
+    background-color: var(--primary-light-color);
 }
 
 .contact {
@@ -35,8 +61,13 @@ span .navbar-toggler-icon {
 
 .separator {
     border-bottom: 2px solid var(--secondary-light-color);
+    /* width: 50%; */
 }
 
 footer {
-    background-color: var(--background-default-color);
+    background-color: var(--primary-light-color);
+}
+
+.btn {
+    background-color: var(--primary-dark-color)
 }
