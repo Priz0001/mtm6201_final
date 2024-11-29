@@ -13,7 +13,6 @@ h1 {
     color: var(--primary-dark-color);
     margin: 0;
     font-size: 3rem;
-    margin-left: 16px;
 }
 
 h2 {
@@ -53,11 +52,26 @@ nav {
 
 .intro {
     background-color: var(--light-color);
+    padding: 16px;;
 }
 
 .intro .ms-5 {
-    padding-left: 70px;
+    padding-left: 48px;
     font-size: 0.8rem;
+}
+
+.container {
+    background-color: var(--primary-dark-color);
+}
+
+.container p {
+    color: var(--light-color);
+}
+
+.container img {
+    height: 260px;
+    object-fit: contain;
+    width: 100%;
 }
 
 .hours-location {
