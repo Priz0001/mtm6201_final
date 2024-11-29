@@ -1,5 +1,5 @@
 :root,
-[data-bs-theme=light] {
+[data-bs-theme] {
     --light-color: #E9E9E9;
     --primary-light-color: #DCEDE0;
     --secondary-light-color: #B28FDA;
@@ -7,10 +7,6 @@
     --primary-dark-color: #275331;
     --secondary-dark-color: #61178C;
 }
-
-/* [data-bs-theme=dark] {
-    
-} */
 
 h1 {
     font-family: "MonteCarlo", cursive;
@@ -31,20 +27,25 @@ p {
     color: var(--dark-color);
 }
 
-.navbar {
+nav {
     background-color: var(--primary-light-color);
     color: var(--primary-dark-color);
 }
 
-.navbar .navbar-brand {
-    /* color: blue;
-    font-family: "Josefin Sans", sans-serif; */
-
+.navbar-toggler {
+    border: none; 
 }
-
-span .navbar-toggler-icon {
-    /* border: none; */
-    color: var(--secondary-dark-color);
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.nav-link {
+    color: var(--primary-dark-color);
+    font-family: "Josefin Sans", sans-serif;
+    border: var(--primary-dark-color) solid 1px;
+    border-radius: 4px;
+    width: fit-content;
+    padding: 8px 12px;
+    margin: 10px 20px;
 }
 
 .intro {
@@ -61,13 +62,21 @@ span .navbar-toggler-icon {
 
 .separator {
     border-bottom: 2px solid var(--secondary-light-color);
-    /* width: 50%; */
+    width: 50%;
 }
 
 footer {
     background-color: var(--primary-light-color);
 }
 
-.btn {
-    background-color: var(--primary-dark-color)
+.btn-primary {
+    background-color: var(--secondary-dark-color);
+    color: var(--light-color);
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: var(--light-color);
+    color: var(--secondary-dark-color);
+    border: var(--secondary-dark-color) solid 1px;
 }
