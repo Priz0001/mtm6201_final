@@ -11,6 +11,9 @@
 h1 {
     font-family: "MonteCarlo", cursive;
     color: var(--primary-dark-color);
+    margin: 0;
+    font-size: 3rem;
+    margin-left: 16px;
 }
 
 h2 {
@@ -50,6 +53,11 @@ nav {
 
 .intro {
     background-color: var(--light-color);
+}
+
+.intro .ms-5 {
+    padding-left: 70px;
+    font-size: 0.8rem;
 }
 
 .hours-location {
