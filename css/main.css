@@ -52,7 +52,7 @@ nav {
 
 .intro {
     background-color: var(--light-color);
-    padding: 16px;;
+    /* padding: 16px; */
 }
 
 .intro .ms-5 {
@@ -76,6 +76,14 @@ nav {
 
 .hours-location {
     background-color: var(--primary-light-color);
+}
+
+.hours-location h3 {
+    color: var(--primary-dark-color);
+}
+
+.hours-location p {
+    font-weight:;
 }
 
 .contact {
