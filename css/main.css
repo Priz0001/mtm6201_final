@@ -35,10 +35,6 @@ nav {
     border-bottom: 1px solid;
 }
 
-li a {
-    width: 200px;
-}
-
 .navbar-toggler {
     border: none;
 }
