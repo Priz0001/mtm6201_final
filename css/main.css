@@ -75,15 +75,15 @@ nav {
     font-size: 0.8rem;
 }
 
-.container {
+.intro-wrapper {
     background-color: var(--primary-dark-color);
 }
 
-.container p {
+.intro-wrapper p {
     color: var(--light-color);
 }
 
-.container img {
+.intro-wrapper img {
 
     object-fit: contain;
     width: 100%;
