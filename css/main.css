@@ -249,3 +249,7 @@ footer {
 .dish p {
     font-weight: 600;
 }
+
+.storypage {
+    background-color: var(--light-color);
+}
