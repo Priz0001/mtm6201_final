@@ -8,6 +8,15 @@
     --secondary-dark-color: #61178C;
 }
 
+html {
+    scroll-padding-top: 95px;
+}
+
+main {
+    margin-top: 95px;
+    background-color: var(--primary-light-color);
+}
+
 h1 {
     font-family: "MonteCarlo", cursive;
     color: var(--primary-dark-color);
@@ -38,9 +47,11 @@ nav {
 .navbar-toggler {
     border: none;
 }
+
 .navbar-toggler:focus {
     box-shadow: none;
 }
+
 .nav-link {
     color: var(--primary-dark-color);
     font-family: "Josefin Sans", sans-serif;
@@ -52,6 +63,10 @@ nav {
 }
 
 .intro {
+    background-color: var(--light-color);
+}
+
+.offcanvas {
     background-color: var(--light-color);
 }
 
@@ -75,7 +90,6 @@ nav {
 }
 
 .hours-location {
-    background-color: var(--primary-light-color);
     border-bottom: 1px solid var(--primary-dark-color);
     border-top: 1px solid var(--primary-dark-color);
 }
@@ -184,4 +198,54 @@ footer {
     display: flex;
     align-items: baseline;
     justify-content: space-between;
+}
+
+.our-menu-item {
+    color: var(--secondary-dark-color);
+    text-decoration: none;
+    border-bottom: 1px solid var(--secondary-dark-color);
+    padding: 0.75rem 0.75rem 0.25rem 0.75rem;
+    font-size: 1.25rem;
+}
+
+.menu-borders {
+    border: var(--primary-dark-color) solid 1px;
+    border-radius: 5px;
+    margin: 2.5rem 0;
+}
+
+.dictionary {
+    padding: 1.25rem;
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: auto auto;
+    font-size: large;
+    background-color: var(--light-color);
+}
+
+.accordion-item {
+    background-color: var(--light-color);
+}
+
+.accordion-button {
+    background-color: var(--light-color);
+    font-size: 1.75rem;
+    color: var(--dark-color);
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+.dish h3 {
+    font-size: 1.25rem;
+}
+
+.dish img {
+    padding: 0 2px;
+}
+
+.dish p {
+    font-weight: 600;
 }

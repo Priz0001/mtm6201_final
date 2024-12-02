@@ -1,230 +1,327 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Plant Palette</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Julius+Sans+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=MonteCarlo&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
-  </head>
-  <body>
-    <header>
-      <nav class="navbar fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="https://priz0001.github.io/mtm6201_final/">
-            <img src="images/logo-plant-palette.svg" alt="logo of the restaurant"/>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <img src="images/icon-hamburger-menu.svg">
-          </button>
-          <div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="d-flex justify-content-end"><a href="#" class="nav-link w-100 text-center">HOME</a></li>
-                <li class="d-flex justify-content-end"><a href="#" class="nav-link w-100 text-center">MENU</a></li>
-                <li class="d-flex justify-content-end"><a href="#" class="nav-link w-100 text-center">CATERING</a></li>
-                <li class="d-flex justify-content-end"><a href="#" class="nav-link w-100 text-center">OUR STORY</a></li>
-                <li class="d-flex justify-content-end"><a href="#" class="nav-link w-100 text-center">PARTNERSHIP</a></li>
-                <li class="d-flex justify-content-end"><a href="#" class="nav-link w-100 text-center">RECIPES</a></li>
-              </ul>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plant Palette</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Julius+Sans+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=MonteCarlo&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://priz0001.github.io/mtm6201_final/">
+          <img src="images/logo-plant-palette.svg" alt="logo of the restaurant" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <img src="images/icon-hamburger-menu.svg">
+        </button>
+        <div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="d-flex justify-content-end"><a href="/" class="nav-link w-100 text-center">HOME</a></li>
+              <li class="d-flex justify-content-end"><a href="/menu.html" class="nav-link w-100 text-center">MENU</a></li>
+              <li class="d-flex justify-content-end"><a href="#" class="nav-link w-100 text-center">CATERING</a></li>
+              <li class="d-flex justify-content-end"><a href="/our-story.html" class="nav-link w-100 text-center">OUR STORY</a></li>
+              <li class="d-flex justify-content-end"><a href="#" class="nav-link w-100 text-center">PARTNERSHIP</a></li>
+              <li class="d-flex justify-content-end"><a href="#" class="nav-link w-100 text-center">RECIPES</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div>
+    </div>
+  </header>
+
+  <main class="p-3">
+    <section class="d-flex flex-column align-items-center">
+      <h2 class="fs-1">OUR MENU</h2>
+      <a class="our-menu-item" href="#appetizers">Appetizers</a>
+      <a class="our-menu-item" href="#main">Main Dishes</a>
+      <a class="our-menu-item" href="#desserts">Desserts</a>
+      <a class="our-menu-item" href="#kids">Kids Menus</a>
+      <a class="our-menu-item" href="#beverages">Beverages</a>
+    </section>
+
+    <section class="dictionary menu-borders">
+      <span class="d-flex align-items-center"><img class="pe-2" src="images/icon-vegan-label.svg">VEGAN</span>
+      <span class="d-flex align-items-center"><img class="pe-2" src="images/icon-nut-label.svg">NUT FREE</span>
+      <span class="d-flex align-items-center"><img class="pe-2" src="images/icon-veg-label.svg">VEGETARIAN</span>
+      <span class="d-flex align-items-center"><img class="pe-2" src="images/icon-gluten-label.svg">GLUTEN FREE</span>
+    </section>
+
+    <section id="appetizers" class="menu-borders">
+      <div class="accordion" id="accordionAppetizers">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseAppetizers" aria-expanded="true" aria-controls="collapseAppetizers">
+              Appetizers
+            </button>
+          </h2>
+          <div id="collapseAppetizers" class="accordion-collapse collapse show" data-bs-parent="#accordionAppetizers">
+            <div class="accordion-body">
+              <div class="dish">
+                <h3>Stuffed Mushrooms <img src="images/icon-veg-label.svg"><img src="images/icon-nut-label.svg"><img
+                    src="images/icon-gluten-label.svg"></h3>
+                <h3>$ 20.00</h3>
+                <p>Button mushrooms filled with a savory blend of spinach, garlic, and herbs, baked to perfection.</p>
+              </div>
+              <div class="separator"></div>
+              <div class="dish">
+                <h3>Pita Bread with Chickpea <img src="images/icon-vegan-label.svg"><img
+                    src="images/icon-gluten-label.svg"></h3>
+                <h3>$ 20.00</h3>
+                <p>Warm pita bread served with a creamy chickpea and yogurt spread, topped with a mix of nuts.</p>
+              </div>
+              <div class="separator"></div>
+              <div class="dish">
+                <h3>Guacamole & Chips <img src="images/icon-vegan-label.svg"><img src="images/icon-nut-label.svg"><img
+                    src="images/icon-gluten-label.svg"></h3>
+                <h3>$ 20.00</h3>
+                <p>Fresh avocado, lime, cilantro, and jalapeños, served with crunchy house-made tortilla chips.</p>
+              </div>
+              <div class="separator"></div>
+              <div class="dish">
+                <h3>Bruschetta with Cashew <img src="images/icon-veg-label.svg"><img src="images/icon-gluten-label.svg">
+                </h3>
+                <h3>$ 20.00</h3>
+                <p>Toasted sourdough topped with a tomato-basil mixture, drizzled with cashew cream.</p>
+              </div>
+              <div class="separator"></div>
+              <div class="dish">
+                <h3>Zucchini Fritters <img src="images/icon-veg-label.svg"><img src="images/icon-nut-label.svg"></h3>
+                <h3>$ 20.00</h3>
+                <p>Crispy zucchini fritters served with a refreshing mint yogurt dip.</p>
+              </div>
+              <div class="separator"></div>
+              <div class="dish">
+                <h3>Cauliflower Buffalo Wings <img src="images/icon-vegan-label.svg"><img
+                    src="images/icon-nut-label.svg"><img src="images/icon-gluten-label.svg"></h3>
+                <h3>$ 20.00</h3>
+                <p>Roasted cauliflower tossed in a tangy buffalo sauce, served with a side of vegan ranch dressing.</p>
+              </div>
             </div>
           </div>
         </div>
-      </nav>
-
-    </header>
-
-    <main>
-      <section>
-        <h2>OUR MENU</h2>
-        <a href="#appetizers">Appetizers</a>
-        <a href="#main">Main Dishes</a>
-        <a href="#desserts">Desserts</a>
-        <a href="#kids">Kids Menus</a>
-        <a href="#beverages">Beverages</a>
-      </section>
-
-      <section>
-        <p><img src="images/icon-vegan-label.svg">VEGAN</p>
-        <p><img src="images/icon-veg-label.svg">VEGETARIAN</p>
-        <p><img src="images/icon-nut-label.svg">NUT FREE</p>
-        <p><img src="images/icon-gluten-label.svg">GLUTEN FREE</p>
-      </section>
-
-      <section>
-        <h2 id="appetizers">Appetizers</h2>
-        <div>
-            <div>
-                <h3>Stuffed Mushrooms<img src="images/icon-veg-label.svg"><img src="images/icon-nut-label.svg"><img src="images/icon-gluten-label.svg"></h3>
+      </div>
+    </section>
+    <section id="main" class="menu-borders">
+      <div class="accordion" id="accordionMainDishes">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseMainDishes" aria-expanded="true" aria-controls="collapseMainDishes">
+              Main Dishes
+            </button>
+          </h2>
+          <div id="collapseMainDishes" class="accordion-collapse collapse show" data-bs-parent="#accordionMainDishes">
+            <div class="accordion-body">
+              <div class="dish">
+                <h3>Lentil Pie<img src="images/icon-vegan-label.svg"><img src="images/icon-nut-label.svg"><img
+                    src="images/icon-gluten-label.svg"></h3>
                 <h3>$ 20.00</h3>
-                <p>Button mushrooms filled with a savory blend of spinach, garlic, and herbs, baked to perfection.</p>
-            </div>
-            <div class="separator"></div>
-            <div>
-                <h3>Pita Bread with Chickpea<img src="images/icon-vegan-label.svg"><img src="images/icon-gluten-label.svg"></h3>
+                <p>A hearty mix of lentils and root vegetables topped with creamy mashed potatoes, baked until golden
+                  brown.
+                </p>
+              </div>
+              <div class="separator"></div>
+              <div class="dish">
+                <h3>Tofu Stir-Fry with Veggies<img src="images/icon-vegan-label.svg"><img
+                    src="images/icon-nut-label.svg"><img src="images/icon-gluten-label.svg"></h3>
                 <h3>$ 20.00</h3>
-                <p>Warm pita bread served with a creamy chickpea and yogurt spread, topped with a mix of nuts.</p>
-            </div>
-            <div class="separator"></div>
-            <div>
-                <h3>Guacamole & Chips<img src="images/icon-vegan-label.svg"><img src="images/icon-nut-label.svg"><img src="images/icon-gluten-label.svg"></h3>
+                <p>Stir-fried tofu with a colorful mix of fresh vegetables and fragrant basil, tossed in a savory
+                  soy-ginger
+                  sauce.</p>
+              </div>
+              <div class="separator"></div>
+              <div class="dish">
+                <h3>Butternut & Spinach Risotto<img src="images/icon-veg-label.svg"><img
+                    src="images/icon-nut-label.svg"><img src="images/icon-gluten-label.svg"></h3>
                 <h3>$ 20.00</h3>
-                <p>Fresh avocado, lime, cilantro, and jalapeños, served with crunchy house-made tortilla chips.</p>
-            </div>
-            <div class="separator"></div>
-            <div>
-                <h3>Bruschetta with Cashew<img src="images/icon-veg-label.svg"><img src="images/icon-gluten-label.svg"></h3>
+                <p>A creamy risotto made with tender butternut squash and fresh spinach, creating a perfect balance of
+                  sweetness and savory.</p>
+              </div>
+              <div class="separator"></div>
+              <div class="dish">
+                <h3>Vegan Buddha Bowl<img src="images/icon-vegan-label.svg"><img src="images/icon-gluten-label.svg">
+                </h3>
                 <h3>$ 20.00</h3>
-                <p>Toasted sourdough topped with a tomato-basil mixture, drizzled with cashew cream.</p>
-            </div>
-            <div class="separator"></div>
-            <div>
-                <h3>Zucchini Fritters<img src="images/icon-veg-label.svg"><img src="images/icon-nut-label.svg"></h3>
+                <p>A nourishing bowl with quinoa, roasted sweet potatoes, avocado, chickpeas, kale, and tahini dressing.
+                </p>
+              </div>
+              <div class="separator"></div>
+              <div class="dish">
+                <h3>Portobello Burger<img src="images/icon-veg-label.svg"><img src="images/icon-nut-label.svg"><img
+                    src="images/icon-gluten-label.svg"></h3>
                 <h3>$ 20.00</h3>
-                <p>Crispy zucchini fritters served with a refreshing mint yogurt dip.</p>
+                <p>A juicy grilled Portobello mushroom cap, topped with caramelized onions, lettuce, and tomato, served
+                  on a
+                  gluten-free bun with a side of sweet potato fries.</p>
+              </div>
             </div>
-            <div class="separator"></div>
-            <div>
-                <h3>Cauliflower Buffalo Wings<img src="images/icon-vegan-label.svg"><img src="images/icon-nut-label.svg"><img src="images/icon-gluten-label.svg"></h3>
-                <h3>$ 20.00</h3>
-                <p>Roasted cauliflower tossed in a tangy buffalo sauce, served with a side of vegan ranch dressing.</p>
-            </div>
+          </div>
         </div>
-      </section>
-      <section>
-        <h2 id="main">Main Dishes</h2>
-        <div>
-            <div>
-                <h3>Lentil Pie<img src="images/icon-vegan-label.svg"><img src="images/icon-nut-label.svg"><img src="images/icon-gluten-label.svg"></h3>
+      </div>
+    </section>
+    <section id="desserts" class="menu-borders">
+      <div class="accordion" id="accordionDesserts">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDesserts"
+              aria-expanded="true" aria-controls="collapseDesserts">
+              Desserts
+            </button>
+          </h2>
+          <div id="collapseDesserts" class="accordion-collapse collapse show" data-bs-parent="#accordionDesserts">
+            <div class="accordion-body">
+              <div class="dish">
+                <h3>Avocado Mousse<img src="images/icon-vegan-label.svg"><img src="images/icon-nut-label.svg"><img
+                    src="images/icon-gluten-label.svg"></h3>
                 <h3>$ 20.00</h3>
-                <p>A hearty mix of lentils and root vegetables topped with creamy mashed potatoes, baked until golden brown.</p>
-            </div>
-            <div class="separator"></div>
-            <div>
-                <h3>Tofu Stir-Fry with Veggies<img src="images/icon-vegan-label.svg"><img src="images/icon-nut-label.svg"><img src="images/icon-gluten-label.svg"></h3>
-                <h3>$ 20.00</h3>
-                <p>Stir-fried tofu with a colorful mix of fresh vegetables and fragrant basil, tossed in a savory soy-ginger sauce.</p>
-            </div>
-            <div class="separator"></div>
-            <div>
-                <h3>Butternut & Spinach Risotto<img src="images/icon-veg-label.svg"><img src="images/icon-nut-label.svg"><img src="images/icon-gluten-label.svg"></h3>
-                <h3>$ 20.00</h3>
-                <p>A creamy risotto made with tender butternut squash and fresh spinach, creating a perfect balance of sweetness and savory.</p>
-            </div>
-            <div class="separator"></div>
-            <div>
-                <h3>Vegan Buddha Bowl<img src="images/icon-vegan-label.svg"><img src="images/icon-gluten-label.svg"></h3>
-                <h3>$ 20.00</h3>
-                <p>A nourishing bowl with quinoa, roasted sweet potatoes, avocado, chickpeas, kale, and tahini dressing.</p>
-            </div>
-            <div class="separator"></div>
-            <div>
-                <h3>Portobello Burger<img src="images/icon-veg-label.svg"><img src="images/icon-nut-label.svg"><img src="images/icon-gluten-label.svg"></h3>
-                <h3>$ 20.00</h3>
-                <p>A juicy grilled Portobello mushroom cap, topped with caramelized onions, lettuce, and tomato, served on a gluten-free bun with a side of sweet potato fries.</p>
-            </div>
-        </div>
-      </section>
-      <section>
-        <h2 id="desserts">Desserts</h2>
-        <div>
-            <div>
-                <h3>Avocado Mousse<img src="images/icon-vegan-label.svg"><img src="images/icon-nut-label.svg"><img src="images/icon-gluten-label.svg"></h3>
-                <h3>$ 20.00</h3>
-                <p>A creamy, rich mousse made with ripe avocado, cocoa, and a touch of maple syrup, topped with fresh berries.</p>
-            </div>
-            <div class="separator"></div>
-            <div>
-                <h3>Baked Apple Crumble<img src="images/icon-vegan-label.svg"><img src="images/icon-nut-label.svg"><img src="images/icon-gluten-label.svg"></h3>
+                <p>A creamy, rich mousse made with ripe avocado, cocoa, and a touch of maple syrup, topped with fresh
+                  berries.
+                </p>
+              </div>
+              <div class="separator"></div>
+              <div class="dish">
+                <h3>Baked Apple Crumble<img src="images/icon-vegan-label.svg"><img src="images/icon-nut-label.svg"><img
+                    src="images/icon-gluten-label.svg"></h3>
                 <h3>$ 20.00</h3>
                 <p>Warm baked apples with a cinnamon oat crumble, served with a scoop of coconut milk ice cream.</p>
-            </div>
-            <div class="separator"></div>
-            <div>
-                <h3>Lemon Panna Cotta<img src="images/icon-veg-label.svg"><img src="images/icon-nut-label.svg"><img src="images/icon-gluten-label.svg"></h3>
+              </div>
+              <div class="separator"></div>
+              <div class="dish">
+                <h3>Lemon Panna Cotta<img src="images/icon-veg-label.svg"><img src="images/icon-nut-label.svg"><img
+                    src="images/icon-gluten-label.svg"></h3>
                 <h3>$ 20.00</h3>
-                <p>A smooth, lemon-flavored panna cotta made with coconut milk and agar agar, topped with a berry compote.</p>
-            </div>
-            <div class="separator"></div>
-            <div>
+                <p>A smooth, lemon-flavored panna cotta made with coconut milk and agar agar, topped with a berry
+                  compote.</p>
+              </div>
+              <div class="separator"></div>
+              <div class="dish">
                 <h3>Carrot Cake with Cashew Frosting<img src="images/icon-veg-label.svg"></h3>
                 <h3>$ 20.00</h3>
-                <p>A spiced carrot cake topped with a creamy cashew-based frosting and a sprinkle of toasted coconut.</p>
+                <p>A spiced carrot cake topped with a creamy cashew-based frosting and a sprinkle of toasted coconut.
+                </p>
+              </div>
             </div>
+          </div>
         </div>
-      </section>
-      <section>
-        <h2 id="kids">Kids Menu</h2>
-        <div>
-            <div>
-                <h3>Mac & Cheese w/ Cauliflower<img src="images/icon-vegan-label.svg"><img src="images/icon-nut-label.svg"><img src="images/icon-gluten-label.svg"></h3>
+      </div>
+    </section>
+    <section id="kids" class="menu-borders">
+      <div class="accordion" id="accordionKidsMenu">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseKidsMenu"
+              aria-expanded="true" aria-controls="collapseKidsMenu">
+              Kids Menu
+            </button>
+          </h2>
+          <div id="collapseKidsMenu" class="accordion-collapse collapse show" data-bs-parent="#accordionKidsMenu">
+            <div class="accordion-body">
+              <div class="dish">
+                <h3>Mac & Cheese w/ Cauliflower<img src="images/icon-vegan-label.svg"><img
+                    src="images/icon-nut-label.svg"><img src="images/icon-gluten-label.svg"></h3>
                 <h3>$ 20.00</h3>
-                <p>A creamy, dairy-free mac and cheese made with gluten-free pasta and cauliflower, topped with nutritional yeast.</p>
-            </div>
-            <div class="separator"></div>
-            <div>
-                <h3>Sweet Potato Fries & Hummus<img src="images/icon-vegan-label.svg"><img src="images/icon-nut-label.svg"><img src="images/icon-gluten-label.svg"></h3>
+                <p>A creamy, dairy-free mac and cheese made with gluten-free pasta and cauliflower, topped with
+                  nutritional
+                  yeast.</p>
+              </div>
+              <div class="separator"></div>
+              <div class="dish">
+                <h3>Sweet Potato Fries & Hummus<img src="images/icon-vegan-label.svg"><img
+                    src="images/icon-nut-label.svg"><img src="images/icon-gluten-label.svg"></h3>
                 <h3>$ 20.00</h3>
                 <p>Crispy sweet potato fries served with a side of homemade hummus for dipping.</p>
-            </div>
-            <div class="separator"></div>
-            <div>
+              </div>
+              <div class="separator"></div>
+              <div class="dish">
                 <h3>Poutine<img src="images/icon-veg-label.svg"><img src="images/icon-nut-label.svg"></h3>
                 <h3>$ 20.00</h3>
                 <p>Crispy golden fries topped with melted cheese curds and smothered in a rich vegetarian gravy.</p>
-            </div>
-            <div class="separator"></div>
-            <div>
-                <h3>Mini Veggie Burger<img src="images/icon-veg-label.svg"><img src="images/icon-nut-label.svg"><img src="images/icon-gluten-label.svg"></h3>
+              </div>
+              <div class="separator"></div>
+              <div class="dish">
+                <h3>Mini Veggie Burger<img src="images/icon-veg-label.svg"><img src="images/icon-nut-label.svg"><img
+                    src="images/icon-gluten-label.svg"></h3>
                 <h3>$ 20.00</h3>
-                <p>A small, crispy veggie patty made with quinoa, black beans, and sweet potatoes, served on a gluten-free bun with a side of carrot sticks.</p>
+                <p>A small, crispy veggie patty made with quinoa, black beans, and sweet potatoes, served on a
+                  gluten-free bun
+                  with a side of carrot sticks.</p>
+              </div>
             </div>
+          </div>
         </div>
-      </section>
-      <section>
-        <h2 id="beverages">Beverages</h2>
-        <div>
-            <div>
-                <h3>Juices<img src="images/icon-vegan-label.svg"><img src="images/icon-nut-label.svg"><img src="images/icon-gluten-label.svg"></h3>
+    </section>
+    <section id="beverages" class="menu-borders">
+      <div class="accordion" id="accordionBeverages">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBeverages"
+              aria-expanded="true" aria-controls="collapseBeverages">
+              Beverages
+            </button>
+          </h2>
+          <div id="collapseBeverages" class="accordion-collapse collapse show" data-bs-parent="#accordionBeverages">
+            <div class="accordion-body">
+              <div class="dish">
+                <h3>Juices<img src="images/icon-vegan-label.svg"><img src="images/icon-nut-label.svg"><img
+                    src="images/icon-gluten-label.svg"></h3>
                 <h3>$ 10.00</h3>
                 <p>Orange, Apple, Mango, Passion fruit, Strawberry</p>
-            </div>
-            <div class="separator"></div>
-            <div>
+              </div>
+              <div class="separator"></div>
+              <div class="dish">
                 <h3>Milkshakes<img src="images/icon-veg-label.svg"><img src="images/icon-nut-label.svg"></h3>
                 <h3>$ 10.00</h3>
                 <p>Chocolate, Banana, Vanilla, Mango</p>
-            </div>
-            <div class="separator"></div>
-            <div>
-                <h3>Sodas & Sparkling Drinks<img src="images/icon-vegan-label.svg"><img src="images/icon-nut-label.svg"><img src="images/icon-gluten-label.svg"></h3>
+              </div>
+              <div class="separator"></div>
+              <div class="dish">
+                <h3>Sodas & Sparkling Drinks<img src="images/icon-vegan-label.svg"><img
+                    src="images/icon-nut-label.svg"><img src="images/icon-gluten-label.svg"></h3>
                 <h3>$ 10.00</h3>
-                <p>OPepsi, Sprite, Canada Dry</p>
+                <p>Pepsi, Sprite, Canada Dry</p>
+              </div>
             </div>
+          </div>
         </div>
-      </section>
+    </section>
 
-    </main>
-    <footer class="p-3">
-      <a href="#">
-        <img src="images/logo-plant-palette.svg" alt="logo of the restaurant"/>
-      </a>
-      <div>
-        <a href="#" class="p-2"><img src="images/icon-instagram.svg"/></a>
-        <a href="#" class="p-2"><img src="images/icon-fb.svg"/></a>
-        <a href="#" class="p-2"><img src="images/icon-share.svg"/></a>
-      </div>
-    </footer>
+  </main>
+  <footer class="p-3">
+    <a href="#">
+      <img src="images/logo-plant-palette.svg" alt="logo of the restaurant" />
+    </a>
+    <div>
+      <a href="#" class="p-2"><img src="images/icon-instagram.svg" /></a>
+      <a href="#" class="p-2"><img src="images/icon-fb.svg" /></a>
+      <a href="#" class="p-2"><img src="images/icon-share.svg" /></a>
+    </div>
+  </footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
