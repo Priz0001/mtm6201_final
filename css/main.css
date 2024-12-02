@@ -253,3 +253,17 @@ footer {
 .storypage {
     background-color: var(--light-color);
 }
+
+@media screen and (min-width: 768px) {
+
+    .ourstory-img {
+        float: left;
+        margin: 0 12px 12px 20px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}

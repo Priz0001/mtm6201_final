@@ -1,100 +1,132 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Plant Palette</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Julius+Sans+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=MonteCarlo&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
-  </head>
-  <body>
-    <header>
-      <nav class="navbar fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="https://priz0001.github.io/mtm6201_final/">
-            <img src="images/logo-plant-palette.svg" alt="logo of the restaurant"/>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <img src="images/icon-hamburger-menu.svg">
-          </button>
-          <div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="d-flex justify-content-end"><a href="./" class="nav-link w-100 text-center">HOME</a></li>
-                <li class="d-flex justify-content-end"><a href="./menu.html" class="nav-link w-100 text-center">MENU</a></li>
-                <li class="d-flex justify-content-end"><a href="#" class="nav-link w-100 text-center">CATERING</a></li>
-                <li class="d-flex justify-content-end"><a href="./ourstory.html" class="nav-link w-100 text-center">OUR STORY</a></li>
-                <li class="d-flex justify-content-end"><a href="#" class="nav-link w-100 text-center">PARTNERSHIP</a></li>
-                <li class="d-flex justify-content-end"><a href="#" class="nav-link w-100 text-center">RECIPES</a></li>
-              </ul>
-            </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plant Palette</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Julius+Sans+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=MonteCarlo&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="https://priz0001.github.io/mtm6201_final/">
+          <img src="images/logo-plant-palette.svg" alt="logo of the restaurant" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <img src="images/icon-hamburger-menu.svg">
+        </button>
+        <div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="d-flex justify-content-end"><a href="./" class="nav-link w-100 text-center">HOME</a></li>
+              <li class="d-flex justify-content-end"><a href="./menu.html" class="nav-link w-100 text-center">MENU</a>
+              </li>
+              <li class="d-flex justify-content-end"><a href="#" class="nav-link w-100 text-center">CATERING</a></li>
+              <li class="d-flex justify-content-end"><a href="./ourstory.html" class="nav-link w-100 text-center">OUR
+                  STORY</a></li>
+              <li class="d-flex justify-content-end"><a href="#" class="nav-link w-100 text-center">PARTNERSHIP</a></li>
+              <li class="d-flex justify-content-end"><a href="#" class="nav-link w-100 text-center">RECIPES</a></li>
+            </ul>
           </div>
         </div>
-      </nav>
-    </header>
-
-    <main class="storypage">
-      <section>
-        <h2 class="fs-1 p-3 m-0 text-center">OUR STORY</h2>
-        <div>
-            <picture>
-                <source srcset="images/our-story-430x360.jpg"
-                        media=" (max-width: 430px)">
-                <source srcset="images/our-story-541x436.jpg"
-                        media=" (max-width: 541px)">
-                <source srcset="images/our-story-847x683.jpg"
-                        media="(min-width: 542px)">
-                <img class="img-fluid" src="images/hour-story-541x436.jpg" alt="restaurant ambience">
-              </picture>
-        </div>
-        <div class="px-3">
-            <p class="pt-3">Five years ago, Mary and Tom Williams decided to turn their dream into reality when they opened their restaurant. Mary, a chef who's passionate about plant-based cooking, and Tom, with a background in business, had one goal in mind: to create a space where people could enjoy healthy, cruelty-free meals that are good for both you and the planet. As vegetarians themselves, they knew how much a plant-based lifestyle could improve your health and help the environment, so they wanted to share that experience with others in a way that's delicious, balanced, and easy to enjoy.</p>
-            <p>Their idea was simple: bring together the values of veganism and vegetarianism with sustainability, while still making sure every dish is packed with nutrients and full of flavor. Mary's cooking expertise means each meal not only tastes amazing but is also healthy and well-balanced. Tom's business skills helped them build a restaurant that's grown into a strong, supportive community of staff, partners, and loyal customers—all sharing the same passion for a more sustainable future. Over the last five years, the restaurant has flourished, and it's become a hub where people come together to enjoy great food and support a cause they care about.</p>
-            <p>Today, the restaurant is a place where eating well feels good—because it's not just about what's on your plate, but how it impacts the world. The growing community of regulars and new faces who walk through the door every day is a reminder that this is more than just a restaurant. It's a movement.</p>
-        </div>
-      </section>
-      <div class="separator"></div>
-      <section>
-        <h2 class="fs-1 p-3 m-0 text-center">MEET THE OWNERS</h2>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-12 col-md-6">
-              <div class="p-3 text-center">
-                  <img src="images/owner-one.png" alt="woman profile picture">
-              </div>
-              <p class="px-3 pb-3 m-0">Hey, I'm Mary Williams, I'm 34, and I grew up in Ottawa. Food has always been a huge part of my life, which is why I decided to study Culinary Arts at George Brown College in Toronto. That's where I really fell in love with cooking. I've been married to Tom for 7 years, and 5 years ago, that's when the idea for Plant Palette was born. We decided to open the restaurant, and I became the head chef. It's been an incredible journey, and I'm really proud of how we've managed to create a space that feels authentic to who we are.</p>
-            </div>
-            <div class="col-12 col-md-6">
-              <div class="p-3 text-center">
-                  <img src="images/owner-two.png" alt="men profile picture">
-              </div>
-              <p class="px-3 pb-3 m-0">Hi! I'm Tom Williams, 35, and I'm from Toronto. I studied Business at University of Toronto, and while I've always been into numbers and strategy, I've always wanted to work on something that actually makes a difference. I've been married to Mary for 7 years, and about 5 years ago, we decided to take the plunge and open our own restaurant. I handle the business side of things, while Mary takes care of the food. It's been a great experience watching our vision come together, and seeing how much it's resonated with people who want to eat better and do better for the planet.</p>
-            </div>
-          </div>
-        </div>
-
-      </section>
-    </main>
-    <footer class="p-3">
-      <a href="#">
-        <img src="images/logo-plant-palette.svg" alt="logo of the restaurant"/>
-      </a>
-      <div>
-        <a href="https://www.instagram.com/" class="p-2"><img src="images/icon-instagram.svg"/></a>
-        <a href="https://www.facebook.com/" class="p-2"><img src="images/icon-fb.svg"/></a>
-        <a href="https://priz0001.github.io/mtm6201_final/" class="p-2"><img src="images/icon-share.svg"/></a>
       </div>
-    </footer>
+    </nav>
+  </header>
+
+  <main class="storypage">
+    <section>
+      <h2 class="fs-1 p-3 m-0 text-center">OUR STORY</h2>
+      <div class="clearfix">
+        <picture class="ourstory-img">
+          <source srcset="images/our-story-430x360.png" media=" (max-width: 430px)">
+          <source srcset="images/our-story-541x436.png" media=" (max-width: 541px)">
+          <source srcset="images/our-story-847x683.png" media="(min-width: 542px)">
+          <img class="img-fluid" src="images/hour-story-541x436.png" alt="restaurant ambience">
+        </picture>
+        <div class="px-3">
+          <p class="pt-3 pt-md-0">Five years ago, Mary and Tom Williams decided to turn their dream into reality when they opened
+            their restaurant. Mary, a chef who's passionate about plant-based cooking, and Tom, with a background in
+            business, had one goal in mind: to create a space where people could enjoy healthy, cruelty-free meals that
+            are good for both you and the planet. As vegetarians themselves, they knew how much a plant-based lifestyle
+            could improve your health and help the environment, so they wanted to share that experience with others in a
+            way that's delicious, balanced, and easy to enjoy.</p>
+          <p>Their idea was simple: bring together the values of veganism and vegetarianism with sustainability, while
+            still making sure every dish is packed with nutrients and full of flavor. Mary's cooking expertise means each
+            meal not only tastes amazing but is also healthy and well-balanced. Tom's business skills helped them build a
+            restaurant that's grown into a strong, supportive community of staff, partners, and loyal customers—all
+            sharing the same passion for a more sustainable future. Over the last five years, the restaurant has
+            flourished, and it's become a hub where people come together to enjoy great food and support a cause they care
+            about.</p>
+          <p>Today, the restaurant is a place where eating well feels good—because it's not just about what's on your
+            plate, but how it impacts the world. The growing community of regulars and new faces who walk through the door
+            every day is a reminder that this is more than just a restaurant. It's a movement.</p>
+        </div>
+      </div>
+    </section>
+    <div class="separator"></div>
+    <section>
+      <h2 class="fs-1 p-3 m-0 text-center">MEET THE OWNERS</h2>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="p-3 text-center">
+              <img src="images/owner-one.png" alt="woman profile picture">
+            </div>
+            <p class="px-3 pb-3 m-0">Hey, I'm Mary Williams, I'm 34, and I grew up in Ottawa. Food has always been a
+              huge part of my life, which is why I decided to study Culinary Arts at George Brown College in Toronto.
+              That's where I really fell in love with cooking. I've been married to Tom for 7 years, and 5 years ago,
+              that's when the idea for Plant Palette was born. We decided to open the restaurant, and I became the head
+              chef. It's been an incredible journey, and I'm really proud of how we've managed to create a space that
+              feels authentic to who we are.</p>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="p-3 text-center">
+              <img src="images/owner-two.png" alt="men profile picture">
+            </div>
+            <p class="px-3 pb-3 m-0">Hi! I'm Tom Williams, 35, and I'm from Toronto. I studied Business at University of
+              Toronto, and while I've always been into numbers and strategy, I've always wanted to work on something
+              that actually makes a difference. I've been married to Mary for 7 years, and about 5 years ago, we decided
+              to take the plunge and open our own restaurant. I handle the business side of things, while Mary takes
+              care of the food. It's been a great experience watching our vision come together, and seeing how much it's
+              resonated with people who want to eat better and do better for the planet.</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+  <footer class="p-3">
+    <a href="#">
+      <img src="images/logo-plant-palette.svg" alt="logo of the restaurant" />
+    </a>
+    <div>
+      <a href="https://www.instagram.com/" class="p-2"><img src="images/icon-instagram.svg" /></a>
+      <a href="https://www.facebook.com/" class="p-2"><img src="images/icon-fb.svg" /></a>
+      <a href="https://priz0001.github.io/mtm6201_final/" class="p-2"><img src="images/icon-share.svg" /></a>
+    </div>
+  </footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
