@@ -27,7 +27,7 @@
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 gap-lg-2 gap-xl-4">
                 <li class="d-flex justify-content-end"><a href="./" class="nav-link w-100 text-center">HOME</a></li>
                 <li class="d-flex justify-content-end"><a href="./menu.html" class="nav-link w-100 text-center">MENU</a></li>
                 <li class="d-flex justify-content-end"><a href="#" class="nav-link w-100 text-center">CATERING</a></li>
@@ -54,11 +54,11 @@
         </picture>
       </div>
       <section class="intro px-3">
-        <div class="grid-margin">
+        <div class="grid-intro">
           <div class="intro-title">
-            <h1 class="py-2">Plant Palette</h1>
+            <h1 class="py-3">Plant Palette</h1>
             <p class="intro-tag fs-6"><strong>VEGAN & VEGETARIAN RESTAURANT</strong></p>
-            <h2 class="fs-1 text-center py-4">EAT BETTER, EAT VEGGIE !</h2>
+            <h2 class="fs-1 text-center py-2">EAT BETTER, EAT VEGGIE !</h2>
           </div>
 
           <div class="container text-center rounded-2 intro-wrapper">
@@ -67,7 +67,7 @@
                 <p class="intro-description text-start fw-light m-0">We're committed to offering a unique dining experience where plant-based cuisine meets sustainable practices, with unforgettable, balanced dishes that nourish both your body and the planet.</p>
               </div>
               <div class="col-6 p-0 m-0">
-                <img class="img-fluid rounded-end-2" src="images/home-booth-354x517.jpg" alt="booth in the restaurant">
+                <img class="img-fluid rounded-end-2" src="images/home-booth-600x800.jpg" alt="booth in the restaurant">
               </div>
             </div>
           </div>
@@ -80,29 +80,31 @@
       </section>
 
       <section class="hours-location p-3">
-        <div>
-          <h3 class="text-center fs-4 py-2">HOURS & LOCATION</h3>
-          <p><strong>Monday to Thursday - 11:30am to 8:30pm</strong></p>
-          <p><strong>Friday & Saturday - 11:00am to 10:00pm</strong></p>
-          <p><strong>Sunday - 11:00am to 3:00pm</strong></p>
-        </div>
-        <div class="separator"></div>
-        <div>
-          <p><svg height="16" width="10"> <image href="images/pin-icon.svg"></svg> <strong>242, Somerset Street, Ottawa, ON</strong></p>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2438.085795258475!2d-75.69202884075385!3d45.416898652474174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05a9504ddd9b%3A0xba476ddd105e486!2s242%20Somerset%20St%20W%2C%20Ottawa%2C%20ON%20K2P%200J4!5e0!3m2!1spt-BR!2sca!4v1732752315190!5m2!1spt-BR!2sca" width="100%" height="233" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="grid-hours-location">
+          <div class="grid-hours">
+            <h3 class="text-center fs-4 py-2">HOURS & LOCATION</h3>
+            <p><strong>Monday to Thursday - 11:30am to 8:30pm</strong></p>
+            <p><strong>Friday & Saturday - 11:00am to 10:00pm</strong></p>
+            <p><strong>Sunday - 11:00am to 3:00pm</strong></p>
+            <div class="separator"></div>
+            <p><svg height="16" width="10"> <image href="images/pin-icon.svg"></svg> <strong>242, Somerset Street, Ottawa, ON</strong></p>
+          </div>
+          <div class="grid-location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2438.085795258475!2d-75.69202884075385!3d45.416898652474174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05a9504ddd9b%3A0xba476ddd105e486!2s242%20Somerset%20St%20W%2C%20Ottawa%2C%20ON%20K2P%200J4!5e0!3m2!1spt-BR!2sca!4v1732752315190!5m2!1spt-BR!2sca" width="100%" height="233" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
         </div>
       </section>
 
       <section class="contact p-3">
-        <div class="d-flex flex-column align-items-center">
-          <h3 class="pt-4">CONTACT US!</h3>
-          <p>(613) 847-8293</p>
-          <button type="button" class="btn btn-primary">VIEW MENU</button>
-          <button type="button" class="btn btn-primary">ORDER NOW</button>
+        <div class="grid-contact d-flex flex-column align-items-center">
+          <h3 class="pt-4 grid-contact-one">CONTACT US!</h3>
+          <p class="grid-contact-two">(613) 847-8293</p>
+          <button type="button" class="btn btn-primary grid-contact-three">VIEW MENU</button>
+          <button type="button" class="btn btn-primary grid-contact-four">ORDER NOW</button>
         </div>
         <div class="separator"></div>
-        <div class="bg-dark p-4 rounded">
-          <h3 class="text-light fs-4">BOOK A RESERVATION</h3>
+        <div class=" reservation p-4 rounded">
+          <h3 class="fs-4 text-center">BOOK A RESERVATION</h3>
           <form>
             <div class="mb-2">
               <label for="fullname" class="form-label"></label>
@@ -159,7 +161,7 @@
       </section>
 
       <section class="feedbacks pt-3">
-        <h3 class="m-0">FEEDBACKS</h3>
+        <h3 class="m-0 pb-3">FEEDBACKS</h3>
         <div id="carousel" class="carousel slide"  data-bs-ride="carousel">
           <div class="carousel-indicators mx-auto my-0">
             <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
