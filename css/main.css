@@ -81,6 +81,7 @@ nav {
 
 .intro-wrapper {
     background-color: var(--primary-dark-color);
+    max-width: 400px;
 }
 
 .intro-wrapper p {
@@ -91,6 +92,10 @@ nav {
 
     object-fit: contain;
     width: 100%;
+}
+
+.intro-description {
+    font-size: 16px;
 }
 
 .hours-location {
@@ -259,6 +264,15 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
+
+    .intro-description {
+        font-size: 24px;
+    }
+
+    .intro-wrapper {
+        max-width: 600px;
+        max-height:438px;
+    }
 
     .ourstory-img {
         float: left;
