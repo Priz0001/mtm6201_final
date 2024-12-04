@@ -1,3 +1,5 @@
+/* SET DEFAULT STYLES */
+
 :root,
 [data-bs-theme] {
     --light-color: #E9E9E9;
@@ -6,6 +8,8 @@
     --dark-color: #262626;
     --primary-dark-color: #275331;
     --secondary-dark-color: #61178C;
+    --max-screen-size: 1728px;
+    --md-screen-size: 1144px;
 }
 
 html {
@@ -38,6 +42,10 @@ p {
     color: var(--dark-color);
 }
 
+.container-fluid {
+    max-width: var(--max-screen-size);
+}
+
 nav {
     background-color: var(--primary-light-color);
     color: var(--primary-dark-color);
@@ -61,6 +69,19 @@ nav {
     padding: 8px 12px;
     margin: 10px 10px;
 }
+
+footer {
+    background-color: var(--primary-light-color);
+    border-top: 1px solid var(--primary-dark-color);
+}
+
+.footer-wrap {
+    max-width: var(--max-screen-size);
+    margin: 0 auto;
+}
+
+
+/* STYLES HOMEPAGE */
 
 .intro {
     background-color: var(--light-color);
@@ -126,7 +147,7 @@ nav {
 }
 
 .contact p {
-    margin: 0;
+    margin: auto;
     color: var(--secondary-dark-color);
     font-size: 1.25rem;
 }
@@ -157,6 +178,33 @@ nav {
     background-color: var(--light-color);
     color: var(--secondary-dark-color);
     border: var(--secondary-dark-color) solid 1px;
+}
+
+.grid-contact {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-self: center;
+}
+
+.grid-contact-one {
+    grid-column: 1;
+    grid-row: 1/2;
+}
+
+.grid-contact-two {
+    grid-column: 1;
+    grid-row: 2/3;
+}
+
+.grid-contact-three {
+    grid-column: 1;
+    grid-row: 3/4;
+}
+
+.grid-contact-four {
+    grid-column: 1;
+    grid-row: 4/5;
 }
 
 .btn-light {
@@ -209,15 +257,8 @@ nav {
     margin-bottom: 2rem;
 }
 
-footer {
-    background-color: var(--primary-light-color);
-    border-top: 1px solid var(--primary-dark-color);
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-}
 
-/* STARTS MENU PAGE */
+/* STYLES MENU PAGE */
 
 .our-menu-item {
     color: var(--secondary-dark-color);
@@ -230,8 +271,7 @@ footer {
 .menu-borders {
     border: var(--primary-dark-color) solid 1px;
     border-radius: 4px;
-    /* margin: 2.5rem 0; */
-    max-width: 1144px;
+    max-width: var(--md-screen-size);
     margin: 2.5rem auto;
 }
 
@@ -243,11 +283,6 @@ footer {
     font-size: large;
     background-color: var(--light-color);
 }
-
-/* .accordion {
-    max-width: 1144px;
-    margin: auto;
-} */
 
 .accordion-item {
     background-color: var(--light-color);
@@ -284,8 +319,7 @@ footer {
     display: none;
 }
 
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
 
     .intro-description {
         font-size: 24px;
@@ -296,26 +330,14 @@ footer {
         max-height:438px;
     }
 
-    .ourstory-img {
-        float: left;
-        margin: 0 12px 12px 20px;
-    }
-
-    .clearfix::after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-
     .grid-intro {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         gap: 10px;
         padding: 60px;
+        max-width: var(--max-screen-size);
+        margin: 0 auto;
     }
 
     .intro-title {
@@ -345,7 +367,7 @@ footer {
         gap: 10px;
         padding: 60px;
         margin: 60px auto;
-        max-width: 1144px;
+        max-width: var(--md-screen-size);
         border: var(--primary-dark-color) solid 1px;
         border-radius: 4px;
     }
@@ -371,11 +393,11 @@ footer {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         gap: 10px;
-        padding: 60px;
+        padding: 40px;
         margin: 60px auto;
         border: var(--secondary-dark-color) solid 1px;
         border-radius: 4px;
-        max-width: 1144px;
+        max-width: var(--md-screen-size);
     }
 
     .grid-contact-one {
@@ -399,12 +421,12 @@ footer {
     }
 
     .reservation {
-        max-width: 1144px;
+        max-width: var(--md-screen-size);
         margin: 60px auto;
     }
 
     .carousel {
-        max-width: 1144px;
+        max-width: var(--md-screen-size);
         margin: auto;
     }
 
@@ -416,7 +438,7 @@ footer {
         font-size: 1.5rem;
     }
 
-    /* STARTS MENU PAGE */
+    /* STYLES MENU PAGE */
 
     .menu-images-wrapper {
         display: contents;
@@ -453,11 +475,10 @@ footer {
         grid-template-rows: 1fr;
         gap: 10px;
         margin: 20px auto;
-        justify-items: center;
         align-items: center;
     }
 
-    .beverage-grid {
+    .menu-beverage-grid {
         grid-column: 1/2;
         grid-row: 1/2;
     }
@@ -465,6 +486,29 @@ footer {
     .beverage-image-one {
         grid-column: 2/3;
         grid-row: 1/2;
+        justify-self: center;
+    }
+
+    /* STYLES OUR STORY PAGE */
+
+    .ourstory-img {
+        float: left;
+        margin: 0 32px 12px 20px;
+    }
+
+    .clearfix {
+        max-width: var(--max-screen-size);
+        margin: 0 auto;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .storypage p {
+        font-size: 1.4rem;
     }
 
 }

@@ -42,12 +42,12 @@
     </header>
 
     <main>
-      <div>
+      <div class="d-flex justify-content-center align-items-center">
         <picture>
           <source srcset="images/home-photo-430x380.jpg"
-                  media=" (max-width: 430px) ">
+                  media=" (max-width: 430px)">
           <source srcset="images/home-photo-1024x580.jpg"
-                  media=" (max-width: 1024px) ">
+                  media=" (max-width: 1024px)">
           <source srcset="images/home-photo-1728x840.jpg"
                   media="(min-width: 1025px)">
           <img class="img-fluid" src="images/home-photo-1050x580.jpg" alt="restaurant entrance">
@@ -96,7 +96,7 @@
       </section>
 
       <section class="contact p-3">
-        <div class="grid-contact d-flex flex-column align-items-center">
+        <div class="grid-contact">
           <h3 class="pt-4 grid-contact-one">CONTACT US!</h3>
           <p class="grid-contact-two">(613) 847-8293</p>
           <button type="button" class="btn btn-primary grid-contact-three">VIEW MENU</button>
@@ -225,15 +225,16 @@
       </section>
     </main>
     <footer class="p-3">
-      <a href="#">
-        <img src="images/logo-plant-palette.svg" alt="logo of the restaurant"/>
-      </a>
-      <div>
-        <a href="https://www.instagram.com/" class="p-2"><img src="images/icon-instagram.svg"/></a>
-        <a href="https://www.facebook.com/" class="p-2"><img src="images/icon-fb.svg"/></a>
-        <a href="https://priz0001.github.io/mtm6201_final/" class="p-2"><img src="images/icon-share.svg"/></a>
+      <div class="footer-wrap d-flex flex-row mb-2 justify-content-between align-items-center">
+        <a href="#">
+          <img src="images/logo-plant-palette.svg" alt="logo of the restaurant" />
+        </a>
+        <div>
+          <a href="https://www.instagram.com/" class="p-2"><img src="images/icon-instagram.svg" /></a>
+          <a href="https://www.facebook.com/" class="p-2"><img src="images/icon-fb.svg" /></a>
+          <a href="https://priz0001.github.io/mtm6201_final/" class="p-2"><img src="images/icon-share.svg" /></a>
+        </div>
       </div>
-    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
