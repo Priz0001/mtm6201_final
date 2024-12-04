@@ -319,7 +319,10 @@ footer {
     display: none;
 }
 
+
 @media screen and (min-width: 1024px) {
+
+/* STYLES HOME PAGE */
 
     .intro-description {
         font-size: 24px;
@@ -438,6 +441,7 @@ footer {
         font-size: 1.5rem;
     }
 
+
     /* STYLES MENU PAGE */
 
     .menu-images-wrapper {
@@ -488,6 +492,7 @@ footer {
         grid-row: 1/2;
         justify-self: center;
     }
+
 
     /* STYLES OUR STORY PAGE */
 
