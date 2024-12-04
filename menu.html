@@ -20,50 +20,47 @@
     <nav class="navbar fixed-top navbar-expand-lg">
       <div class="container-fluid">
         <a class="navbar-brand" href="https://priz0001.github.io/mtm6201_final/">
-          <img src="images/logo-plant-palette.svg" alt="logo of the restaurant" />
+          <img src="images/logo-plant-palette.svg" alt="logo of the restaurant"/>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
           <img src="images/icon-hamburger-menu.svg">
         </button>
-        <div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="d-flex justify-content-end"><a href="./" class="nav-link w-100 text-center">HOME</a></li>
-              <li class="d-flex justify-content-end"><a href="./menu.html" class="nav-link w-100 text-center">MENU</a></li>
-              <li class="d-flex justify-content-end"><a href="#" class="nav-link w-100 text-center">CATERING</a></li>
-              <li class="d-flex justify-content-end"><a href="./ourstory.html" class="nav-link w-100 text-center">OUR STORY</a></li>
-              <li class="d-flex justify-content-end"><a href="#" class="nav-link w-100 text-center">PARTNERSHIP</a></li>
-              <li class="d-flex justify-content-end"><a href="#" class="nav-link w-100 text-center">RECIPES</a></li>
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 gap-lg-2 gap-xl-4">
+              <li class="d-flex justify-content-end hover-scale"><a href="./" class="nav-link w-100 text-center">HOME</a></li>
+              <li class="d-flex justify-content-end hover-scale"><a href="./menu.html" class="nav-link w-100 text-center">MENU</a></li>
+              <li class="d-flex justify-content-end hover-scale"><a href="#" class="nav-link w-100 text-center">CATERING</a></li>
+              <li class="d-flex justify-content-end hover-scale"><a href="./ourstory.html" class="nav-link w-100 text-center">OUR STORY</a></li>
+              <li class="d-flex justify-content-end hover-scale"><a href="#" class="nav-link w-100 text-center">PARTNERSHIP</a></li>
+              <li class="d-flex justify-content-end hover-scale"><a href="#" class="nav-link w-100 text-center">RECIPES</a></li>
             </ul>
           </div>
         </div>
       </div>
     </nav>
-    <div>
-    </div>
   </header>
 
   <main class="p-3">
-    <section class="d-flex flex-column align-items-center">
-      <h2 class="fs-1">OUR MENU</h2>
-      <a class="our-menu-item" href="#appetizers">Appetizers</a>
-      <a class="our-menu-item" href="#main">Main Dishes</a>
-      <a class="our-menu-item" href="#desserts">Desserts</a>
-      <a class="our-menu-item" href="#kids">Kids Menus</a>
-      <a class="our-menu-item" href="#beverages">Beverages</a>
-    </section>
-
-    <section class="dictionary menu-borders">
-      <span class="d-flex align-items-center"><img class="pe-2" src="images/icon-vegan-label.svg">VEGAN</span>
-      <span class="d-flex align-items-center"><img class="pe-2" src="images/icon-nut-label.svg">NUT FREE</span>
-      <span class="d-flex align-items-center"><img class="pe-2" src="images/icon-veg-label.svg">VEGETARIAN</span>
-      <span class="d-flex align-items-center"><img class="pe-2" src="images/icon-gluten-label.svg">GLUTEN FREE</span>
+    <section class="menu-container">
+      <div class="d-flex flex-column align-items-center p-3 menu-links">
+        <h2 class="fs-1">OUR MENU</h2>
+        <a class="our-menu-item hover-scale" href="#appetizers">Appetizers</a>
+        <a class="our-menu-item hover-scale" href="#main">Main Dishes</a>
+        <a class="our-menu-item hover-scale" href="#desserts">Desserts</a>
+        <a class="our-menu-item hover-scale" href="#kids">Kids Menus</a>
+        <a class="our-menu-item hover-scale" href="#beverages">Beverages</a>
+      </div>
+      <div class="dictionary p-3 menu-borders">
+        <span class="d-flex align-items-center"><img class="pe-2" src="images/icon-vegan-label.svg">VEGAN</span>
+        <span class="d-flex align-items-center"><img class="pe-2" src="images/icon-nut-label.svg">NUT FREE</span>
+        <span class="d-flex align-items-center"><img class="pe-2" src="images/icon-veg-label.svg">VEGETARIAN</span>
+        <span class="d-flex align-items-center"><img class="pe-2" src="images/icon-gluten-label.svg">GLUTEN FREE</span>
+      </div>
     </section>
 
     <section id="appetizers" class="menu-borders">
