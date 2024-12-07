@@ -285,7 +285,7 @@ footer {
 .menu-borders {
     border: var(--primary-dark-color) solid 1px;
     border-radius: 4px;
-    max-width: var(--md-screen-size);
+    /* max-width: var(--md-screen-size); */
     margin: 2.5rem auto;
 }
 
@@ -562,6 +562,10 @@ footer {
     .intro-wrapper {
         max-width: 600px;
         max-height:438px;
+    }
+
+    .menu-borders {
+        max-width: var(--max-screen-size);
     }
 
     .menu-images-wrapper-two {
