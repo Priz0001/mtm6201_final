@@ -199,26 +199,31 @@ footer {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     justify-self: center;
+    align-items: center;
+    gap: 18px;
+    place-items: center;
+    min-height: 245px;
 }
 
 .grid-contact-one {
+    padding-top: 24px;
     grid-column: 1;
-    grid-row: 1/2;
+    grid-row: 1;
 }
 
 .grid-contact-two {
     grid-column: 1;
-    grid-row: 2/3;
+    grid-row: 2;
 }
 
 .grid-contact-three {
     grid-column: 1;
-    grid-row: 3/4;
+    grid-row: 3;
 }
 
 .grid-contact-four {
     grid-column: 1;
-    grid-row: 4/5;
+    grid-row: 4;
 }
 
 .btn-light {
@@ -400,36 +405,41 @@ footer {
         display: none;
     }
 
+    .separator {
+        width: 620px;
+    }
+
     .grid-contact {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         gap: 10px;
         padding: 40px;
         margin: 60px auto;
         border: var(--secondary-dark-color) solid 1px;
         border-radius: 4px;
         max-width: var(--md-screen-size);
+        min-height: 185px;
     }
 
     .grid-contact-one {
-        grid-column: 1/2;
+        padding-top: 0;
+        grid-column: 1;
         grid-row: 1;
     }
 
     .grid-contact-two {
-        grid-column: 2/3;
+        grid-column: 2;
         grid-row: 1;
     }
 
     .grid-contact-three {
-        grid-column: 3/4;
-        grid-row: 1;
+        grid-column: 1;
+        grid-row: 2;
     }
 
     .grid-contact-four {
-        grid-column: 4/5;
-        grid-row: 1;
+        grid-column: 2;
+        grid-row: 2;
     }
 
     .reservation {
@@ -558,6 +568,36 @@ footer {
 }
 
 @media screen and (min-width: 1400px) {
+
+    .separator {
+        width: 1000px;
+    }
+
+    .grid-contact {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        min-height: 130px;
+    }
+
+    .grid-contact-one {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .grid-contact-two {
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .grid-contact-three {
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    .grid-contact-four {
+        grid-column: 4;
+        grid-row: 1;
+    }
 
     .intro-wrapper {
         max-width: 600px;
